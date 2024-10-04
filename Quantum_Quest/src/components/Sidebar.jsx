@@ -2,12 +2,12 @@ const Sidebar = () => {
   return (
     <>
       <div
-        className="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
+        className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar"
         style={{ width: "280px" }}
       >
         <a
           href="/"
-          className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
         >
           <svg className="bi pe-none me-2" width="40" height="32">
             <use xlinkHref="#bootstrap"></use>
@@ -25,7 +25,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-body-emphasis">
+            <a href="#" className="nav-link text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#speedometer2"></use>
               </svg>
@@ -33,7 +33,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-body-emphasis">
+            <a href="#" className="nav-link text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#table"></use>
               </svg>
@@ -41,7 +41,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-body-emphasis">
+            <a href="#" className="nav-link text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#grid"></use>
               </svg>
@@ -49,7 +49,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="nav-link link-body-emphasis">
+            <a href="#" className="nav-link text-white">
               <svg className="bi pe-none me-2" width="16" height="16">
                 <use xlinkHref="#people-circle"></use>
               </svg>
@@ -61,7 +61,7 @@ const Sidebar = () => {
         <div className="dropdown">
           <a
             href="#"
-            className="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle"
+            className="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
