@@ -3,7 +3,10 @@ import { FaLocationArrow } from "react-icons/fa6";
 const CourseJumbotron = ({ children }) => {
   return (
     <>
-      <div className="p-5 text-center bg-body-tertiary rounded-3">
+      <div
+        className="p-5 text-center rounded-3"
+        style={{ backgroundColor: "#E3E7AF" }}
+      >
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div className="col">{children}</div>
           <div className="col">{children}</div>
