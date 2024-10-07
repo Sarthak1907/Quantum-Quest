@@ -32,7 +32,7 @@ const HeroContent = () => {
               </button>
               <button
                 type="button"
-                className="btn btn-outline-secondary btn-lg px-4"
+                className="btn btn-outline-light btn-lg px-4"
               >
                 Courses
               </button>
