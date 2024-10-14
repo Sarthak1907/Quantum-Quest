@@ -1,4 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 const LoginForm = () => {
+  const navigate = useNavigate();
+  const goTo = () => {
+    navigate("/signup");
+  };
+
   return (
     <>
       {/*  Login 10 - Bootstrap Brain Component  */}
@@ -77,7 +84,11 @@ const LoginForm = () => {
                 </div>
               </div>
               <div className="d-flex gap-2 gap-md-4 flex-column flex-md-row justify-content-md-center mt-4">
-                <a href="#!" className="link-dark text-decoration-none">
+                <a
+                  onClick={goTo}
+                  href="/signup"
+                  className="link-dark text-decoration-none"
+                >
                   Sign Up
                 </a>
                 <a href="#!" className="link-secondary text-decoration-none">

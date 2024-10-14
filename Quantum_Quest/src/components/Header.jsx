@@ -1,4 +1,14 @@
+import { useNavigate } from "react-router-dom";
+
 const Header = () => {
+  const navigate = useNavigate();
+  const goToLogin = () => {
+    navigate("/login");
+  };
+  const goToSignUp = () => {
+    navigate("/signup");
+  };
+
   return (
     <>
       <header className="p-3 text-bg-dark">
@@ -60,10 +70,18 @@ const Header = () => {
             </form>
 
             <div className="text-end">
-              <button type="button" className="btn btn-outline-light me-2">
+              <button
+                onClick={goToLogin}
+                type="button"
+                className="btn btn-outline-light me-2"
+              >
                 Login
               </button>
-              <button type="button" className="btn btn-warning">
+              <button
+                onClick={goToSignUp}
+                type="button"
+                className="btn btn-warning"
+              >
                 Sign-up
               </button>
             </div>
